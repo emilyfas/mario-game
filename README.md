@@ -28,10 +28,10 @@ https://emilyfas.github.io/mario-game/
 
 ## Projeto:
 
-- **Home:** Nela temos uma breve apresentação;
-- **Informações:** Aqui apresento minhas competências informações pessoais e formaçao;
-- **Projetos:** Apresenta alguns projetos desenvolvidos e com link para os respectivos códigos no GitHub;
-- **Contato:** Badges com meus meios de contato e redes sociais;
+- Projeto Inicial
+
+
+- Minhas Implementações
   
    
    <div align="right">
