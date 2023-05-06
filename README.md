@@ -14,7 +14,7 @@ https://emilyfas.github.io/mario-game/
 # Índice 
 * [Título e Imagem de capa](#mario-game)
 * [Índice](#índice)
-* [Seções](#secoes)
+* [Projeto](#projeto)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
 * [Acesso ao projeto](#acesso-ao-projeto)
 * [Abrir e rodar o projeto](#abrir-e-rodar-o-projeto)
@@ -24,9 +24,9 @@ https://emilyfas.github.io/mario-game/
 
 
 ---
-<div id="secoes">
+<div id="projeto">
 
-## Seções:
+## Projeto:
 
 - **Home:** Nela temos uma breve apresentação;
 - **Informações:** Aqui apresento minhas competências informações pessoais e formaçao;
