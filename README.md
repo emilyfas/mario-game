@@ -19,6 +19,8 @@ https://emilyfas.github.io/mario-game/
 * [Acesso ao projeto](#acesso-ao-projeto)
 * [Abrir e rodar o projeto](#abrir-e-rodar-o-projeto)
 * [Autora](#autora)
+* [Projeto Original](#projeto-original)
+
 
 
 ---
