@@ -1,11 +1,11 @@
 # Mário Game
 Jogo do mario "melhorado" do tutorial "Como criar um jogo SIMPLES usando JavaScript e HTML" do manual do dev no youtube.
 
-## Link do Projeto inicial:
-https://youtu.be/r9buAwVBDhA
-
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 ![GitHub Org's stars](https://img.shields.io/github/stars/emilyfas?style=social)
+
+## Link do Projeto inicial:
+https://youtu.be/r9buAwVBDhA
 
 ## Visualizar o Projeto
 https://emilyfas.github.io/mario-game/
