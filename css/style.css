@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 
-body{
+.tela-body{
     height: 100vh;
+    background-color: pink;
 }
 
 .game-board{
