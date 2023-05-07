@@ -14,7 +14,6 @@ const jump = () =>{
         mario.classList.remove("jump")
     } , 500);
 
-    updateDisplay(++counterVal);
 
 }
 
@@ -36,7 +35,11 @@ const loop = setInterval(() => {
         clearInterval(loop)
 
         gameOver();
+    } else if (pipePosition <= 105 && pipePosition > 0 && marioPosition > 80){    
+        updateDisplay(++counterVal);
     }
+    
+    
 }, 10);
 
 function gameOver() {
