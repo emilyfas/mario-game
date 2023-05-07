@@ -5,21 +5,24 @@ Jogo do mario "melhorado" do tutorial "Como criar um jogo SIMPLES usando JavaScr
 ![GitHub Org's stars](https://img.shields.io/github/stars/emilyfas?style=social)
 
 ## Link do Projeto inicial:
-https://youtu.be/r9buAwVBDhA
+
 
 ## Visualizar o Projeto
+Você pode visualizar o projeto clicando no link abaixo:
+
 https://emilyfas.github.io/mario-game/
+
+<i>IMPORTANTE: Projeto ainda não está acabado.</i>
 
 ---
 # Índice 
-* [Título e Imagem de capa](#mario-game)
+* [Título e Imagem de capa](#mário-game)
 * [Índice](#índice)
+* [Visualizar o projeto](#visualizar-o-projeto)
 * [Projeto](#projeto)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
-* [Acesso ao projeto](#acesso-ao-projeto)
-* [Abrir e rodar o projeto](#abrir-e-rodar-o-projeto)
 * [Autora](#autora)
-* [Projeto Original](#projeto-original)
+* [Projeto original](#projeto-original)
 
 
 
@@ -28,11 +31,13 @@ https://emilyfas.github.io/mario-game/
 
 ## Projeto:
 
-- Projeto Inicial
+### Projeto Inicial
 
+Jogo do mario em que ao clicar em qualquer tecla do teclado, o mario pula. O objetivo do jogo é evitar o obstáculo que entra na tela infinitas vezes. Caso o objeto não seja evitado, o jogo é encerrado.
 
-- Minhas Implementações
-  
+### Minhas Implementações
+
+Adcionei uma tela de game over quando o jogador perde, um botão para reiniciar o jogo além de uma barra de status que mostra quantas vezes o obstáculo foi evitado e o tempo que está o jogo está rodando.
    
    <div align="right">
 
@@ -48,36 +53,6 @@ https://emilyfas.github.io/mario-game/
 ![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)&nbsp;
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)&nbsp;
   
-</div>
-<div align="right">
-
-  [Índice :point_up:](#índice)
-</div>
-
----
-<div id="acesso-ao-projeto">
-
-## Acesso ao projeto:
-
-Você pode [acessar o código fonte do projeto inicial](https://github.com/emilyfas/Portfolio/find/main) ou [baixá-lo](https://github.com/emilyfas/Portfolio/archive/refs/heads/main.zip).
-</div>
-<div align="right">
-
-  [Índice :point_up:](#índice)
-</div>
-
----
-<div id="abrir-e-rodar-o-projeto">
-
-## Abrir e rodar o projeto:
-
-Após baixar o projeto, você pode abrir com o VS Code. Para isso, na tela imicial clique em:
-
-- **Open Folder...** (ou alguma opção similar)
-- Procure o local onde o projeto está e o selecione (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo)
-- Por fim clique em OK
-
-Assim será possivel visualizar o codigo da pagina, para rodar o projeto basta executar o arquivo "index.html".
 </div>
 <div align="right">
 
@@ -102,4 +77,18 @@ Alguns meios de contato:
 <div align="right">
 
   [Índice :point_up:](#índice)
+</div>
+
+---
+<div id="projeto-original">
+Link de acesso ao vídeo do projeto inicial:
+
+https://youtu.be/r9buAwVBDhA
+
+Projeto foi feito pelo canal "Manual do Dev", o professor tem uma didática ótima, consegui aprender muitas que estava tendo dificuldade através deste projeto.
+<div align="right">
+
+  [Índice :point_up:](#índice)
+
+</div>
 </div>
