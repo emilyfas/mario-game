@@ -39,11 +39,12 @@ Jogo do mario em que ao clicar em qualquer tecla do teclado, o mario pula. O obj
 
 Adcionei uma tela de game over quando o jogador perde, um botão para reiniciar o jogo além de uma barra de status que mostra quantas vezes o obstáculo foi evitado e o tempo que está o jogo está rodando.
    
-<div align="right">
 
-    [Índice :point_up:](#índice)
+  <div align="right">
+
+      [Índice :point_up:](#índice)
+    </div>
   </div>
-</div>
 
 ---
 <div id="tecnologias-utilizadas">
