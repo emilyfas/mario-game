@@ -4,6 +4,9 @@ const pipe = document.querySelector(".pipe");
 const overDiv = document.querySelector(".game-status");
 var counterVal = 0;
 
+var body = document.body;
+
+
 const jump = () =>{
     mario.classList.add("jump")
 
@@ -53,4 +56,4 @@ function updateDisplay(val) {
 }
 
 document.addEventListener('keydown', jump);
-document.addEventListener('TouchEvent', jump);
+body.addEventListener('TouchEvent', jump);
