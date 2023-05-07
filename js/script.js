@@ -35,16 +35,14 @@ const loop = setInterval(() => {
         gameOver();
     } else if (pipePosition <= 105 && pipePosition > 0 && marioPosition > 80){    
         updateDisplay(++counterVal);
-    }
-    
-    
+    } 
 }, 10);
 
 function gameOver() {
     overDiv.innerHTML += `<img src="images/overpic.png" alt="imagem game over" class="game-over">
     <button class="buttonStart" onclick="start()">
         <img src="images/Daco_4422541.png" alt="imagem começar jogo" width="150px" class="start">
-    </button>`
+    </button>`;
 }
 
 
