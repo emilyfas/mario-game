@@ -53,3 +53,4 @@ function updateDisplay(val) {
 }
 
 document.addEventListener('keydown', jump);
+document.addEventListener('TouchEvent', jump);
