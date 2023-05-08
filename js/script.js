@@ -33,7 +33,7 @@ const loop = setInterval(() => {
         clearInterval(loop)
 
         gameOver();
-    } else if (pipePosition <= 105 && pipePosition > 0 && marioPosition > 80){    
+    } else if (pipePosition <= 45 && pipePosition >= 37 && marioPosition >= 80 && marioPosition <= 150){    
         updateDisplay(++counterVal);
     } 
 }, 10);
