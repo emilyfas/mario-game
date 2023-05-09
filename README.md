@@ -45,6 +45,9 @@ Adcionei uma tela de game over quando o jogador perde, um botão para reiniciar 
 * Game Over
 
 * Barra de Status
+
+* Vidas
+
 </div>
 
 <div align="right">
