@@ -38,7 +38,7 @@ https://emilyfas.github.io/mario-game/
 
 Jogo do mario em que ao clicar em qualquer tecla do teclado, o mario pula. O objetivo do jogo é evitar o obstáculo que entra na tela infinitas vezes. Caso o objeto não seja evitado, o jogo é encerrado.
 
-### Minhas Implementações
+## Minhas Implementações
 
 Adcionei uma tela de game over quando o jogador perde, um botão para reiniciar o jogo além de uma barra de status que mostra quantas vezes o obstáculo foi evitado e o tempo que está o jogo está rodando.
 </div>
