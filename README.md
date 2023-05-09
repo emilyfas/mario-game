@@ -22,6 +22,7 @@ https://emilyfas.github.io/mario-game/
 * [Visualizar o projeto](#visualizar-o-projeto)
 * [Índice](#índice)
 * [Projeto](#projeto)
+* [Implementações](#implementações)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
 * [Autora](#autora)
 * [Projeto original](#projeto-original)
