@@ -33,7 +33,7 @@ const loop = setInterval(() => {
         clearInterval(loop)
 
         gameOver();
-    } else if (pipePosition <= 45 && pipePosition >= 37 && marioPosition >= 80 && marioPosition <= 150){    
+    } else if (pipePosition <= 40 && pipePosition >= 37 && marioPosition == 140 && marioPosition <= 150){    
         updateDisplay(++counterVal);
     } 
 }, 10);
@@ -54,5 +54,16 @@ function updateDisplay(val) {
     document.getElementById("counter-label").innerHTML = val;
 }
 
-document.addEventListener('keydown', jump);
 body.addEventListener('touchstart', jump);
+
+document.addEventListener('keydown', function(event) {
+    if (event.key === " ") {
+        jump();
+      }
+});
+
+document.addEventListener('keydown', function(event) {
+    if (event.key === "Enter") {
+        start();
+      }
+});
