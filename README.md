@@ -5,9 +5,13 @@ Jogo do mario "melhorado" do tutorial "Como criar um jogo SIMPLES usando JavaScr
 
 ![Mario Game](https://i.ibb.co/pb85wYR/Screenshot-20230507-135247-Chrome.jpg)&nbsp;
 </div>
+<div align=center>
 
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
-![GitHub Org's stars](https://img.shields.io/github/stars/emilyfas?style=social)
+![License](https://img.shields.io/github/license/emilyfas/mario-game?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/emilyfas/mario-game?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/emilyfas/mario-game?style=flat-square)
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=status&message=em%20desenvolvimento&color=GREEN&?style=flat-squar)
+</div>
 
 ## Visualizar o Projeto
 Você pode visualizar o projeto clicando no link abaixo:
