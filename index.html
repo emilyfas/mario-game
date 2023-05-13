@@ -9,11 +9,28 @@
     <title>Mario Game</title>
 </head>
 <body class="tela-body">
-    <div class="game-board">
+    <header class="instrucoes">
+        <p>Pressione <i>Space</i> para pular e <i>Enter</i> para reiniciar o jogo.</p>
+    </header>
+    <main class="game-board">
         <div class="scoreBoard">
-            <span class="counter">
+            <!-- <span class="counter">
                 <h2 id="counter-label">0</h2>
-            </span>
+            </span> -->
+            <!-- <span class="timer">
+                <div id="clock" onload="currentTime()"></div>
+            </span> -->
+            <form name="form_main">
+                <div>
+                  <span id="minute">00</span>:<span id="second">00</span>
+                </div>
+              
+                <br/>
+              
+                <button type="button" name="start" onload="startClock()">start</button>
+                <button type="button" name="pause">pause</button>
+                <button type="button" name="reset">reset</button>
+              </form>
         </div>
 
         <div class="game-status">
@@ -25,8 +42,9 @@
         <img src="images/pipe.png" alt="imagem tubo verde" class="pipe">
 
 
-    </div>
-
+    </main>
+    <script src="js/clock.js"></script>
     <script defer src="js/script.js"></script>
+
 </body>
 </html>

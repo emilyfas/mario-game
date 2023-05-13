@@ -6,7 +6,15 @@
 
 .tela-body{
     height: 90vh;
+    width: 100vw;
     background-color: black;
+}
+
+.instrucoes p{
+    position: absolute;
+    left: 10%;
+    top: 15px;
+    color: #acacac;
 }
 
 .game-board{

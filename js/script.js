@@ -1,10 +1,9 @@
 const mario = document.querySelector(".mario");
 const pipe = document.querySelector(".pipe");
-
 const overDiv = document.querySelector(".game-status");
 var counterVal = 0;
-
 var body = document.querySelector(".tela-body");
+//import timer
 
 
 const jump = () =>{
@@ -53,6 +52,16 @@ function start(){
 function updateDisplay(val) {
     document.getElementById("counter-label").innerHTML = val;
 }
+
+
+//timer inicio
+
+
+
+//timer fim
+
+
+
 
 body.addEventListener('touchstart', jump);
 
