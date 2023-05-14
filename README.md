@@ -103,7 +103,7 @@ Link de acesso ao vídeo do projeto inicial:
 
 https://youtu.be/r9buAwVBDhA
 
-Projeto foi feito pelo canal "Manual do Dev", o professor tem uma didática ótima, consegui aprender muitas que estava tendo dificuldade através deste projeto.
+Projeto foi feito pelo canal "Manual do Dev", o professor tem uma didática ótima, consegui entender muitas que estava tendo dificuldade através deste projeto.
 <div align="right">
 
   [Índice :point_up:](#índice)
