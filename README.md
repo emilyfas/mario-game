@@ -1,5 +1,5 @@
 # Mário Game
-Jogo do mario "melhorado" do tutorial "Como criar um jogo SIMPLES usando JavaScript e HTML" do <i>'Manual do Dev'</i> no youtube.
+Jogo do Mario "melhorado" do tutorial "Como criar um jogo SIMPLES usando JavaScript e HTML" do <i>'Manual do Dev'</i> no youtube.
 
 <div align="center">
 
