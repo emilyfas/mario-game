@@ -80,19 +80,6 @@
     border-radius: 10px;
 }
 
-.scoreBoard{
-    display: flex;
-    justify-content: center;
-    
-}
-.counter{
-    border: 5px solid #333;
-    border-radius: 7px;
-    width: 50px;
-    display: flex;
-    justify-content: center;
-}
-
 @keyframes pipeAnimation{
     from{
         right: -80px;
