@@ -23,6 +23,7 @@ https://emilyfas.github.io/mario-game/
 * [Visualizar o projeto](#visualizar-o-projeto)
 * [Índice](#índice)
 * [Recursos Aprimorados](#recursos-aprimorados)
+* [Como Jogar](#como-jogar)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
 * [Contato](#contato)
 * [Creditos](#creditos)
@@ -46,7 +47,7 @@ https://emilyfas.github.io/mario-game/
 
 ## Como Jogar:
 
-1. Abra o jogo no seu navegador.  https://emilyfas.github.io/mario-game/
+1. [Abra o jogo](https://emilyfas.github.io/mario-game/) no seu navegador.  
 
 2. Ao iniciar o jogo, o Mario estará em posição inicial.
 
