@@ -53,16 +53,6 @@ function updateDisplay(val) {
     document.getElementById("counter-label").innerHTML = val;
 }
 
-
-//timer inicio
-
-
-
-//timer fim
-
-
-
-
 body.addEventListener('touchstart', jump);
 
 document.addEventListener('keydown', function(event) {
