@@ -3,7 +3,6 @@ const pipe = document.querySelector(".pipe");
 const overDiv = document.querySelector(".game-status");
 var counterVal = 0;
 var body = document.querySelector(".tela-body");
-//import timer
 
 
 const jump = () =>{
