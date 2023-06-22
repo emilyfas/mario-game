@@ -10,11 +10,28 @@
     background-color: black;
 }
 
-.instrucoes p{
-    position: absolute;
-    left: 10%;
-    top: 15px;
+.instrucoes p:nth-child(1) {
+    margin: 20px 0 10px 0;
     color: #acacac;
+}
+
+.instrucoes p {
+    color: #acacac;
+    margin-bottom: 15px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.instrucoes {
+    height: 90px;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .game-board{
@@ -24,7 +41,6 @@
     border-bottom: 10px solid #00a708;
     background: linear-gradient(#60c5ff, #ebf8ff);
     margin: 0 auto;
-    margin-top: 50px;
     position: relative;
     overflow: hidden;
 }

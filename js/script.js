@@ -65,3 +65,22 @@ document.addEventListener('keydown', function(event) {
         start();
       }
 });
+
+
+
+
+const inst = document.querySelector(".instrucoes");
+
+let i = 0
+function handleInstrucao(){
+  
+  if (window.innerWidth < 990 && i < 1){
+  inst.innerHTML += "<p><b>Usando Mobile?</b> Toque a tela para pular e pressione <i>Start</i> para reiniciar o jogo.</p>";
+  
+  i += 1;
+  } 
+}
+
+window.addEventListener("resize", handleInstrucao);
+
+window.addEventListener("pageshow", handleInstrucao);
