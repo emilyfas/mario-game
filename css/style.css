@@ -167,6 +167,7 @@ header {
         width: 100%;
         font-weight: bold;
         font-size: 13px;
+        margin: 0 10px;
     }
     .instrucoes p {
         color: #ffffff;
