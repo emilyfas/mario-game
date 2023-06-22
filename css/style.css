@@ -141,6 +141,9 @@ header {
         width: 100%;
         height: 450px;
     }
+    .game-status{
+        margin-top: 150px;
+    }
     .game-over{
         width: 300px;
         margin: 0 auto;
@@ -169,6 +172,10 @@ header {
         color: #ffffff;
         margin-bottom: 15px;
         margin-top: 0px;
+    }
+    .clouds{
+        width: 500px;
+        height: 150px;
     }
 }
 @media screen and (max-width: 420px){
