@@ -144,7 +144,6 @@ header {
     .game-over{
         width: 300px;
         margin: 0 auto;
-        background-color: red;
     }
     .pipe{
         width: 50px;
