@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .tela-body{
@@ -75,7 +76,7 @@ header {
 }
 
 .game-over{
-    width: 600px;
+    width: 400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -113,7 +114,7 @@ header {
         bottom: 140px;
     }
     50%{
-        bottom: 140px;
+        bottom: 150px;
     }
     60%{
         bottom: 140px;
@@ -129,5 +130,87 @@ header {
     }
     to{
         right: 100%;
+    }
+}
+
+@media screen and (max-width: 760px){
+    .tela-body{
+        width: 100vw;
+    } 
+    .game-board{
+        width: 100%;
+        height: 450px;
+    }
+    .game-over{
+        width: 300px;
+        margin: 0 auto;
+        background-color: red;
+    }
+    .pipe{
+        width: 50px;
+        height: 50px;
+    }
+    .mario{
+        width: 100px;
+    }
+    .start{
+        width: 150px;
+    }
+    .buttonStart{
+        width: 150px;
+        margin: 0 auto;
+    }
+    .instrucoes{
+        height: 100px;
+        width: 100%;
+        font-weight: bold;
+        font-size: 13px;
+    }
+    .instrucoes p {
+        color: #ffffff;
+        margin-bottom: 15px;
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 420px){
+    .instrucoes p:nth-child(1) {
+        display: none;
+    }
+    .instrucoes p {
+        margin: 0px;
+    }
+    .instrucoes{
+        height: 70px;
+    }
+    .pipe{
+        animation: pipeAnimation 1.5s infinite linear;
+    }
+    .game-over{
+        width: 230px;
+    }
+    .start{
+        width: 120px;
+    }
+    .buttonStart{
+        width: 120px;
+        margin: 0 auto;
+    }
+
+    @keyframes marioJump{
+        0%{
+            bottom: 0;
+        }
+        30%{
+            bottom: 140px;
+        }
+        50%{
+            bottom: 150px;
+        }
+        70%{
+            bottom: 140px;
+        }
+        100%{
+            bottom: 0;
+        }
     }
 }

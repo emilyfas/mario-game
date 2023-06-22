@@ -5,7 +5,14 @@ var counterVal = 0;
 var body = document.querySelector(".tela-body");
 
 
-const jump = () =>{
+// const jump = () =>{
+//     mario.classList.add("jump")
+
+//     setTimeout(() => {
+//         mario.classList.remove("jump")
+//     } , 500);
+// }
+function jump(){
     mario.classList.add("jump")
 
     setTimeout(() => {
@@ -17,23 +24,59 @@ const loop = setInterval(() => {
 
     const pipePosition = pipe.offsetLeft;
     const marioPosition = +window.getComputedStyle(mario).bottom.replace('px', '');
-
-    if (pipePosition <= 105 && pipePosition > 0 && marioPosition < 80){
-        pipe.style.animation = 'none';
-        pipe.style.left = `${pipePosition}px`;
-
-        mario.style.animation = 'none';
-        mario.style.bottom = `${marioPosition}px`;
-        mario.src = 'images/game-over.png';
-        mario.style.width = '65px';
-        mario.style.marginLeft = '35px';
-
-        clearInterval(loop)
-
-        gameOver();
-    } else if (pipePosition <= 40 && pipePosition >= 37 && marioPosition == 140 && marioPosition <= 150){    
-        updateDisplay(++counterVal);
-    } 
+    if(document.body.offsetWidth >= 760){
+        if (pipePosition <= 100 && pipePosition > 0 && marioPosition < 80){
+            pipe.style.animation = 'none';
+            pipe.style.left = `${pipePosition}px`;
+    
+            mario.style.animation = 'none';
+            mario.style.bottom = `${marioPosition}px`;
+            mario.src = 'images/game-over.png';
+            mario.style.width = '65px';
+            mario.style.marginLeft = '35px';
+    
+            clearInterval(loop)
+    
+            gameOver();
+        } else if (pipePosition <= 40 && pipePosition >= 37 && marioPosition == 140 && marioPosition <= 150){    
+            updateDisplay(++counterVal);
+        } 
+    } else if(document.body.offsetWidth >= 420){
+        if (pipePosition <= 85 && pipePosition > 0 && marioPosition < 50){
+            pipe.style.animation = 'none';
+            pipe.style.left = `${pipePosition}px`;
+    
+            mario.style.animation = 'none';
+            mario.style.bottom = `${marioPosition}px`;
+            mario.src = 'images/game-over.png';
+            mario.style.width = '50px';
+            mario.style.marginLeft = '35px';
+    
+            clearInterval(loop)
+    
+            gameOver();
+        } else if (pipePosition <= 40 && pipePosition >= 37 && marioPosition == 140 && marioPosition <= 150){    
+            updateDisplay(++counterVal);
+        }  
+    }else{
+        if (pipePosition <= 80 && pipePosition > 0 && marioPosition < 50){
+            pipe.style.animation = 'none';
+            pipe.style.left = `${pipePosition}px`;
+    
+            mario.style.animation = 'none';
+            mario.style.bottom = `${marioPosition}px`;
+            mario.src = 'images/game-over.png';
+            mario.style.width = '50px';
+            mario.style.marginLeft = '35px';
+    
+            clearInterval(loop)
+    
+            gameOver();
+        } else if (pipePosition <= 40 && pipePosition >= 37 && marioPosition == 140 && marioPosition <= 150){    
+            updateDisplay(++counterVal);
+        } 
+    }
+    
 }, 10);
 
 function gameOver() {
@@ -42,9 +85,7 @@ function gameOver() {
         <img src="images/Daco_4422541.png" alt="imagem começar jogo" width="150px" class="start">
     </button>`;
 }
-
-
-function start(){
+function start() {
     location.reload();
 }
 
@@ -84,3 +125,5 @@ function handleInstrucao(){
 window.addEventListener("resize", handleInstrucao);
 
 window.addEventListener("pageshow", handleInstrucao);
+
+
