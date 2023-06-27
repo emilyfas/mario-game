@@ -2,33 +2,40 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
     <title>Mario Game</title>
 </head>
-<body class="tela-body">
-    <header>
-        <div class="instrucoes">
-           <p>Pressione <i>Space</i> para pular e <i>Enter</i> para reiniciar o jogo.</p>
+<body>
+    <img src="images/clouds.png" alt="imagem nuvens" class="clouds">
+    <main>
+        <section class="contato">
+            <div class="contato-container">
+                <button class="dropbtn">Contato</button>
+                <div class="dropdown-content">
+                    <a href="https://instagram.com/emillygarai" target="_blank">Instagram</a>
+                    <a href="https://twitter.com/emilly_fernads" target="_blank">Twitter</a>
+                    <a href="mailto:emilly.fernandesads@gmail.com">Email</a>
+                    <a href="https://www.linkedin.com/in/emilly-fernandes" target="_blank">Linkedin</a>
+                    <a href="https://www.github.com/emilyfas" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </section>
+        
+        <div class="title-container">
+            <h1>Mario Game</h1>
+            <p>Evite os obstaculos e ajude Mario a salvar a princesa Peach. Divirta-se!</p>
+            <p>Pessione <i>Start</i> para Jogar</p> 
         </div>
-    </header>
-    <main class="game-board">
-        <div class="game-status">
-        <!-- mensagem de game over chamada pelo js -->
+        
+        <div class="start-container">
+            <a href="jogo.html"><img src="images/Daco_4422541.png" alt="imagem começar jogo" width="150px" class="start"></a>
         </div>
-
-        <img src="images/clouds.png" alt="imagem nuvens" class="clouds">
-        <img src="images/mario.gif" alt="gif mario correndo" class="mario">
         <img src="images/pipe.png" alt="imagem tubo verde" class="pipe">
-
-
     </main>
-    <script defer src="js/script.js"></script>
-
+    <script src="js/index.js"></script>
 </body>
 </html>

@@ -4,14 +4,6 @@ const overDiv = document.querySelector(".game-status");
 var counterVal = 0;
 var body = document.querySelector(".tela-body");
 
-
-// const jump = () =>{
-//     mario.classList.add("jump")
-
-//     setTimeout(() => {
-//         mario.classList.remove("jump")
-//     } , 500);
-// }
 function jump(){
     mario.classList.add("jump")
 
@@ -106,9 +98,6 @@ document.addEventListener('keydown', function(event) {
         start();
       }
 });
-
-
-
 
 const inst = document.querySelector(".instrucoes");
 

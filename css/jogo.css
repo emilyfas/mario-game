@@ -40,7 +40,7 @@ header {
     height: 500px;
     border: 1px solid #333;
     border-bottom: 10px solid #00a708;
-    background: linear-gradient(#60c5ff, #ebf8ff);
+    background: linear-gradient(#0084d1, #c9ecff);
     margin: 0 auto;
     position: relative;
     overflow: hidden;
@@ -93,8 +93,12 @@ header {
     cursor:pointer;
 }
 .buttonStart:hover{
-    border: 2px solid #333;
-    border-radius: 10px;
+    width: 162px;
+    height: 55px;
+}
+.buttonStart:hover img{
+    width: 162px;
+    height: 50px;
 }
 
 @keyframes pipeAnimation{
