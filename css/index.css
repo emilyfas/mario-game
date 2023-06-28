@@ -125,6 +125,14 @@ h1{
         right: 100%;
     }
 }
+@media screen and (max-width: 1000px){
+    .pipe{
+        display: none;
+    }
+    .clouds{
+        display: none;
+    }
+}
 @media screen and (max-width: 500px){
     h1{
         font-size: 60px;
